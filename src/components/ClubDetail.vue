@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-wrap mx-3">
 
-        <p class="text-2xl font-semibold mb-2 lg:mb-0 pb-5">Football Club Details</p>
+        <p class="text-xl font-semibold mb-2 lg:mb-0 pb-5">Football Club Details</p>
 
         <div class="bg-gray-100 p-3">
             <div class="container mx-auto my-5">

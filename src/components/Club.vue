@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p class="text-2xl font-semibold mb-2 lg:mb-0 pb-5">List of Football Club</p>
+        <p class="text-xl font-semibold mb-2 lg:mb-0 pb-5">List of Football Club</p>
 
         <div class="flex flex-wrap mx-3 mb-20">
             <div v-for="(club, i) in $store.state.clubList" :key="i" class="cover w-full bg-gray-100 border rounded-lg flex justify-between items-center px-4 py-2 mb-4">

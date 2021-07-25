@@ -11,8 +11,8 @@
               </div>
 
               <div class="relative text-gray-600">
-                <a class="font-semibold text-3xl text-gray-700">
-                  <router-link href="" :to="{ path: '/' }">FOOTBALL CLUB</router-link>
+                <a class="font-semibold text-2xl text-gray-900">
+                  <router-link href="" :to="{ path: '/' }">FOOTBALL CLUB PROFILE</router-link>
                 </a>
               </div>
             </div>
@@ -44,5 +44,6 @@ export default {
 <style scoped>
 a {
   cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 </style>

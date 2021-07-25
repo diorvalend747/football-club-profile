@@ -46,7 +46,6 @@ export default new Vuex.Store({
             })
                 .then(({ data }) => {
                     commit('SET_AREA', [...data.areas])
-                    console.log(data)
                 })
                 .catch((err) => {
                     console.log(err)
@@ -60,7 +59,6 @@ export default new Vuex.Store({
             })
                 .then(({ data }) => {
                     commit('SET_CLUB_LIST', [...data.teams])
-                    console.log(data)
                 })
                 .catch((err) => {
                     console.log(err)
@@ -74,7 +72,6 @@ export default new Vuex.Store({
             })
                 .then(({ data }) => {
                     commit('SET_CLUB_LIST', [...data.teams])
-                    console.log(data)
                 })
                 .catch((err) => {
                     console.log(err)
@@ -88,7 +85,6 @@ export default new Vuex.Store({
             })
                 .then(({ data }) => {
                     commit('SET_CLUB_DATA', data)
-                    console.log(data)
                 })
                 .catch((err) => {
                     console.log(err)
@@ -102,7 +98,6 @@ export default new Vuex.Store({
             })
                 .then(({ data }) => {
                     commit('SET_PLAYER', data)
-                    console.log(data)
                 })
                 .catch((err) => {
                     console.log(err)
