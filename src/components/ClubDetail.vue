@@ -3,7 +3,7 @@
 
         <p class="text-xl font-semibold mb-2 lg:mb-0 pb-5">Football Club Details</p>
 
-        <div class="bg-gray-100 p-3">
+        <div class="bg-gray-100 p-3 pb-7 mb-5">
             <div class="container mx-auto my-5">
                 <div class="flex flex-wrap mx-3 mb-20">
                     <div class="w-full md:w-3/12 md:mx-2">
@@ -57,7 +57,7 @@
             </div>
         </div>
 
-        <div class="align-middle inline-block w-full shadow overflow-hidden bg-white shadow-dashboard px-4 mt-8 rounded-bl-lg rounded-br-lg">
+        <div class="align-middle inline-block w-full shadow overflow-hidden bg-white shadow-dashboard px-4 mt-8 rounded-bl-lg rounded-br-lg md-flex-shrink-0">
             <table class="w-full">
                 <thead>
                     <tr>
