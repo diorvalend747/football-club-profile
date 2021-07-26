@@ -31,9 +31,6 @@ export default {
       .then(() => {
         this.$router.push('/')
       })
-      .then(() => {
-        this.$store.dispatch('pickArea', id)
-      })
       .catch((err) => {
         console.log(err)
       })

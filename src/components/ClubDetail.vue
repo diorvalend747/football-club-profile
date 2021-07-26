@@ -57,15 +57,11 @@
             </div>
         </div>
 
-        <div>
-            <p class="text-xl font-semibold mb-2 lg:mt-6 pt-5">Player List</p>
-        </div>
-
         <div class="align-middle inline-block w-full shadow overflow-hidden bg-white shadow-dashboard px-4 mt-8 rounded-bl-lg rounded-br-lg">
             <table class="w-full">
                 <thead>
                     <tr>
-                        <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Name</th>
+                        <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-grey-700 tracking-wider">PLAYER LIST</th>
                         <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider"></th>
                     </tr>
                 </thead>

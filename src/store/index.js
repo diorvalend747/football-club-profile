@@ -40,7 +40,7 @@ export default new Vuex.Store({
         },
         getArea ({ commit }) {
             axios({
-                url: 'http://api.football-data.org/v2/areas',
+                url: 'https://api.football-data.org/v2/areas',
                 headers: { 'X-Auth-Token': process.env.VUE_APP_API_KEY },
                 method: 'GET'
             })
@@ -53,7 +53,7 @@ export default new Vuex.Store({
         },
         pickArea ({ commit },id) {
             axios({
-                url: `http://api.football-data.org/v2/teams/?areas=${id}`,
+                url: `https://api.football-data.org/v2/teams/?areas=${id}`,
                 headers: { 'X-Auth-Token': process.env.VUE_APP_API_KEY },
                 method: 'GET'
             })
@@ -66,7 +66,7 @@ export default new Vuex.Store({
         },
         pickAreaDefault ({ commit }) {
             axios({
-                url: `http://api.football-data.org/v2/teams/?areas=2072`,
+                url: `https://api.football-data.org/v2/teams/?areas=2072`,
                 headers: { 'X-Auth-Token': process.env.VUE_APP_API_KEY },
                 method: 'GET'
             })
@@ -79,7 +79,7 @@ export default new Vuex.Store({
         },
         pickClub ({ commit }, id) {
             axios({
-                url: `http://api.football-data.org/v2/teams/${id}`,
+                url: `https://api.football-data.org/v2/teams/${id}`,
                 headers: { 'X-Auth-Token': process.env.VUE_APP_API_KEY },
                 method: 'GET'
             })
@@ -92,7 +92,7 @@ export default new Vuex.Store({
         },
         pickPlayer ({ commit }, id) {
             axios({
-                url: `http://api.football-data.org/v2/players/${id}`,
+                url: `https://api.football-data.org/v2/players/${id}`,
                 headers: { 'X-Auth-Token': process.env.VUE_APP_API_KEY },
                 method: 'GET'
             })
